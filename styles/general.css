@@ -1,0 +1,21 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    /* This style below will be inherited */
+    font-family: Inter, Arial;
+    margin: 0;
+    max-width: 1500px;
+    overflow-x: hidden;
+    
+    padding-top: 50px;
+    padding-left: 270px;
+    width: auto;
+    background-color: #f7f7f8;
+}
+@media (max-width: 1200px) {
+    body{
+        padding-left: 50px;
+    }
+  }

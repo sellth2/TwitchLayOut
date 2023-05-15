@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="stylesheet" href="styles/header.css">
+      <link rel="stylesheet" href="styles/sidebar.css">
+      <link rel="stylesheet" href="styles/mainpage.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap" rel="stylesheet">
+      <title>Twitch</title>
+      
+    </head>
+    <body>
+      <header class="header">
+        <div class="left-section">
+          <div class="div-logo">
+            <img class="twitch-logo" src="dev/twitch-icon.png">
+          </div>
+          <div class="div-gozat">
+            <a>
+              <p class="gozat">Gözat</p>
+              <img class="div-doc" src="dev/doc.jpg">
+            </a>
+          </div>
+          <div class="div-dots">
+            <img class="three-dot-menu" src="dev/menu-3-dots.webp">
+            <div class="tooltip">Daha Fazla</div>
+          </div>
+          
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Ara">
+          <button class="search-button">
+            <img class="search-icon" src="dev/search-logo.webp">
+            <div class="tooltip">Ara</div>
+          </button>
+          <!-- Put position absolute inside position relative -->
+        </div>
+        <div class="right-section">
+          <div class="notifications-icon-container">
+            <img class="notifications-icon" src="dev/crown-logo.png">
+            <div class="tooltip">Yeni Prime Ganimeti</div>
+            <div class="notifications-count">13</div>
+          </div>
+          <div class="div-options">
+            <div class="div-login"><button class="button-login"><div class="div-ilogin">Oturum Aç</div></button></div>
+            <div class="div-signup"><button class="button-signup"><div class="div-dsignup"><div class="div-isignup">Kayıt ol</div></div></button></div>
+            <div class="div-user-pic"><button class="button-user-pic"><img class="current-user-picture" src="dev/user-interface.png"></button></div>
+          </div>
+          </div>
+      </header>
+
+      <nav class="sidebar">
+        <div class="sidebar-link">
+          <div class="sidebar-title">
+            <div class="div-h2">
+              <h2>ÖNERİLEN KANALLAR</h2>
+            </div>
+            <div class="div-arrow">
+            <img class="logo-arrow-smaller" src="dev/collapse-left.webp">
+            <img class="logo-arrow-bigger" src="dev/collapse-right.webp">
+            <img class="logo-camera" src="dev/camera-logo.jpg">
+            <div class="tooltip">Daralt</div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel12.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">OPiAofcl</p></div>
+              <div>
+                <p class="video-content">Rise Online</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>12</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel13.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">Mami</p></div>
+              <div>
+                <p class="video-content">Knight Online</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>157</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel20.jpg"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">BpSwieb</p></div>
+              <div>
+                <p class="video-content">Rise Online</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>492</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel19.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">PartWelsh</p></div>
+              <div>
+                <p class="video-content">Sadece Sohbet</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>73</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel18.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">RoyalTeakon</p></div>
+              <div>
+                <p class="video-content">Star Citizen</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>1,6 B</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel9.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">haskologlu</p></div>
+              <div>
+                <p class="video-content">Sadece Sohbet</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>31,9 B</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel8.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">saamtwo</p></div>
+              <div>
+                <p class="video-content">VALORANT</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>2,1 B</span></div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel7.png"></div>
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">LCK</p></div>
+              <div>
+                <p class="video-content">League of Legends</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>4,5 B</span></div>
+              </div>
+          </div>
+        </div>
+        <div class="sidebar-channels">
+          <div class="div-ch-img"><img class="sidebar-img" src="channels/channel6.png"></div>
+          
+            <div class="video-middle">
+              <div class="div-video-title"><p class="video-p">BurakSakinOl</p></div>
+              <div>
+                <p class="video-content">Sadece Sohbet</p>
+              </div>
+            </div>
+            <div class="video-most-right">
+              <div class="div-red-number">
+                <div class="div-dot"><div class="red-dot"></div></div>
+                <div class="div-number"><span>1,1 B</span></div>
+              </div>
+            </div>
+          
+        </div>
+      </nav>
+      <div class="main-page">
+        <div class="div-first">
+          <img class="add-left" src="content/ad-left2.jpg">
+          <img class="add-right" src="content/ad-right2.jpg">
+          <div class="div-intro">
+           
+            <div class="ad-layout">
+              <div class="blue-space">
+                <div class="div-align">
+                  <div><button class="button-left"><img class="img-go-left" src="dev/go-left.png"></button></div> 
+                  <div class="div-frame">
+                    <iframe class="main-video" width="530" height="300" src="https://www.youtube.com/embed/bK-KE2IpVok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-info-flex1">
+                      <div class="div-pic-info">
+                        <div class="channel-picture-main">
+                          <img class="profile-picture" src="channels/channel1.png">
+                        </div>
+                          <div class="video-info-main">
+                            <p class="video-author-main">
+                              thedra1
+                            </p>
+                            <p class="video-title-main">
+                              Radiant'a kasıyoruz! Gün(4/7) !ucuzvp w/ @gosaydam ve @hasan Şile'ye tatile gitti ev bize kaldı
+                            </p>
+                            <p class="video-audience-main">734 izleyici</p>
+                          </div>
+                      </div>
+                          <div class="div-tag-big">
+                            <div class="div-tag">Raze</div>
+                          </div>
+                          <p class="video-content-main">
+                            Selamlar! Yayınlarımda BDO & EU4 başta olmak üzere çeşitli ve güzel fakat çok da değeri bilinmeyen oyunlar oynamayı tercih ediyorum. Oyun ne olursa olsun her konuda sohbet etmeyi ve etkileşimli olmayı severim.
+                          </p>
+                        
+                      </div>
+                  </div> 
+                  <div><button class="button-right"><img class= "img-go-right" src="dev/go-right.png"></button></div>   
+                </div>
+              </div>
+
+            </div>
+          </div>
+        
+        </div>
+          <div class="div-seperater">
+            <span>Önerilen <a class="a-content">Sadece Sohbet</a> kanalları</span>
+          </div>
+          <div class="video-flex">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail1.jpg">
+                  <div class="div-live"> CANLI </div>
+                    
+                  <div class="video-audience">266 izleyici</div>
+                </div>
+                <div class="video-info-flex">
+                    <div class="channel-picture">
+                    <img class="profile-picture" src="channels/channel1.png">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Radiant'a kasıyoruz! Gün(4/7) !ucuzvp w/ @gosaydam ve @hasan Şile'ye tatile gitti ev bize kaldı
+                        </p>
+                        <p class="video-author">
+                            thedra1
+                        </p>
+                        <p class="video-content">
+                            VALORANT
+                        </p>
+                        <div class="div-tag-big">
+                            <div class="div-tag">Raze</div><div class="div-tag">Valorant</div><div class="div-tag">Thedra</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <div class="div-live"> CANLI </div>
+                    <img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+                    <div class="video-audience">362 izleyici</div>
+                </div>
+                <div class="video-info-flex">
+                    <div class="channel-picture">
+                    <img class="profile-picture" src="channels/channel7.png">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            DUNGEON CFW MOUNT/RAMAZANDA SPOR / 100.000 TL ÖDÜLLÜ TURNUVAYA KATILDIK !riseonline !oyuneks
+                        </p>
+                        <p class="video-author">
+                            JEMSNOW
+                        </p>
+                        <p class="video-content">
+                            Rise Online
+                        </p>
+                        <div class="div-tag-big">
+                            <div class="div-tag">Türkçe</div><div class="div-tag">motovlog</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview2">
+              <div class="thumbnail-row">
+                  <div class="div-live"> CANLI </div>
+                  <img class="thumbnail" src="thumbnails/thumbnail3.jpg">
+                  <div class="video-audience">356 izleyici</div>
+              </div>
+              <div class="video-info-flex">
+                  <div class="channel-picture">
+                  <img class="profile-picture" src="channels/channel5.png">
+                  </div>
+                  <div class="video-info">
+                      <p class="video-title">
+                          [ZERO] SIFIRDAN AMA NASIL ŞANSLI !kopazar !komutlar
+                      </p>
+                      <p class="video-author">
+                          s7se7en
+                      </p>
+                      <p class="video-content">
+                          Knight Online
+                      </p>
+                      <div class="div-tag-big">
+                          <div class="div-tag">Türkçe</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="video-preview3">
+            <div class="thumbnail-row">
+                <div class="div-live"> CANLI </div>
+                <img class="thumbnail" src="thumbnails/thumbnail4.jpg">
+                <div class="video-audience">1,1 B izleyici</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-picture">
+                <img class="profile-picture" src="channels/channel3.png">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        DRYHARD SOLOQ !instagram
+                    </p>
+                    <p class="video-author">
+                        LynxCerezLoL
+                    </p>
+                    <p class="video-content">
+                        League of Legends
+                    </p>
+                    <div class="div-tag-big">
+                        <div class="div-tag">Türkçe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview4">
+          <div class="thumbnail-row">
+              <div class="div-live"> CANLI </div>
+              <img class="thumbnail" src="thumbnails/thumbnail5.jpg">
+              <div class="video-audience">2,3 B izleyici</div>
+          </div>
+          <div class="video-info-flex">
+              <div class="channel-picture">
+              <img class="profile-picture" src="channels/channel2.png">
+              </div>
+              <div class="video-info">
+                  <p class="video-title">
+                      !hellcase
+                  </p>
+                  <p class="video-author">
+                      sizophren
+                  </p>
+                  <p class="video-content">
+                      VALORANT
+                  </p>
+                  <div class="div-tag-big">
+                      <div class="div-tag">sizo</div><div class="div-tag">aile</div><div class="div-tag">küfür</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="div-show-more">
+      <div class="empty-div"></div>
+      <div class="for-hover"><div class="show-more">Daha fazla göster<img class="purple-arrow" src="dev/purple-arrow.png"> </div></div>
+      <div class="empty-div"></div>
+    </div>
+
+          
+          <div class="div-seperater">
+            <span>Seveceğini düşündüğümüz <a class="a-content">Kategoriler</a></span>
+          </div>
+
+          <div class="content-preview-grid">
+            <div class="div-content-cell">
+              <div class="thumbnail-row"><img class="thumbnail" src="content/content1.jpg"></div>
+              <p class="video-title">Sadece Sohbet</p>
+              <p class="video-author">513,2 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">IRL</div>
+              </div>
+            </div>
+            <div class="div-content-cell">
+              <div class="thumbnail-row"><img class="thumbnail" src="content/content2.jpg"></div>
+              <p class="video-title">VALORANT</p>
+              <p class="video-author">129,3 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Nişancı Oyunu</div>
+              </div>
+            </div>
+            <div class="div-content-cell">
+              <div class="thumbnail-row"><img class="thumbnail"  src="content/content3.jpg"></div>
+              <p class="video-title">League of Legends</p>
+              <p class="video-author">357,3 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">MOBA</div>
+              </div>
+            </div>
+            <div class="div-content-cell">
+              <div class="thumbnail-row"><img class="thumbnail" src="content/content4.jpg"></div>
+              <p class="video-title">PUBG: BATTLEGROUNDS</p>
+              <p class="video-author">30,1 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Nişancı Oyunu</div>
+              </div>
+            </div>
+            <div class="div-content-cell2">
+              <div class="thumbnail-row"><img class="thumbnail"  src="content/content5.jpg"></div>
+              <p class="video-title">Counter-Strike: Global Offensive</p>
+              <p class="video-author">147,5 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">POV Nişancı</div>
+              </div>
+            </div>
+            <div class="div-content-cell2">
+              <div class="thumbnail-row"><img class="thumbnail"  src="content/content6.jpg"></div>
+              <p class="video-title">Grand Theft Auto V</p>
+              <div><p class="video-author">257,7 B izleyici</p></div>
+              <div class="div-tag-big">
+                <div class="div-tag">Macera Oyunu</div>
+              </div>
+            </div>
+            <div class="div-content-cell3">
+              <div class="thumbnail-row"><img class="thumbnail" src="content/content7.jpg"></div>
+              <p class="video-title">WO LONG</p>
+              <p class="video-author">4 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Aksiyon Oyunu</div>
+              </div>
+            </div>
+            <div class="div-content-cell3">
+              <div class="thumbnail-row"><img class="thumbnail"  src="content/content8.jpg"></div>
+              <p class="video-title">Contraband Police</p>
+              <p class="video-author">23,2 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Nişancı</div>
+              </div>
+            </div>
+            <div class="div-content-cell4">
+              <div class="thumbnail-row"><img class="thumbnail"  src="content/content9.jpg"></div>
+              <p class="video-title">BIG Ambitions</p>
+              <p class="video-author">13,2 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Simülasyon</div>
+              </div>
+            </div>
+            <div class="div-content-cell4">
+              <div class="thumbnail-row"><img class="thumbnail" src="content/content10.jpg"></div>
+              <p class="video-title">DIABLO IV</p>
+              <p class="video-author">50,8 B izleyici</p>
+              <div class="div-tag-big">
+                <div class="div-tag">Rol Yapma Oyunu</div>
+              </div>
+            </div>
+
+          </div>
+          <div class="div-show-more">
+            <div class="empty-div"></div>
+            <div class="for-hover"><div class="show-more">Daha fazla göster<img class="purple-arrow" src="dev/purple-arrow.png"> </div></div>
+            <div class="empty-div"></div>
+          </div>
+          <div class="div-seperater">
+            <span>Seveceğinizi düşündüğümüz <a class="a-content">Klipler</a></span>
+          </div>
+          <div class="video-flex">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <div class="div-live"> CANLI </div>
+                    <img class="thumbnail" src="thumbnails/thumbnail10.jpg">
+                    <div class="video-audience">2,2 B izleyici</div>
+                </div>
+                <div class="video-info-flex">
+                    <div class="channel-picture">
+                    <img class="profile-picture" src="channels/channel10.png">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            [DROPS] Showing old videos while u guys get drops !Guide !Fitness 
+                        </p>
+                        <p class="video-author">
+                            GingiTV
+                        </p>
+                        <p class="video-content">
+                            World of Warcraft
+                        </p>
+                        <div class="div-tag-big">
+                            <div class="div-tag">DropsEnabled</div><div class="div-tag">English</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <div class="div-live"> CANLI </div>
+                    <img class="thumbnail" src="thumbnails/thumbnail11.jpg">
+                    <div class="video-audience">1,5 B izleyici</div>
+                </div>
+                <div class="video-info-flex">
+                    <div class="channel-picture">
+                    <img class="profile-picture" src="channels/channel11.png">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                           !obi Moooiiin
+                        </p>
+                        <p class="video-author">
+                            Hasi
+                        </p>
+                        <p class="video-content">
+                            Tchia
+                        </p>
+                        <div class="div-tag-big">
+                            <div class="div-tag">Anime</div><div class="div-tag">Schwabenpower</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview2">
+              <div class="thumbnail-row">
+                  <div class="div-live"> CANLI </div>
+                  <img class="thumbnail" src="thumbnails/thumbnail12.jpg">
+                  <div class="video-audience">929 izleyici</div>
+              </div>
+              <div class="video-info-flex">
+                  <div class="channel-picture">
+                  <img class="profile-picture" src="channels/channel12.png">
+                  </div>
+                  <div class="video-info">
+                      <p class="video-title">
+                          chat is given life new banner mika ayaka shenhe later !haveanicedeath
+                      </p>
+                      <p class="video-author">
+                          OkCode
+                      </p>
+                      <p class="video-content">
+                          Genshin Impact
+                      </p>
+                      <div class="div-tag-big">
+                          <div class="div-tag">Cozy</div><div class="div-tag">Okcode</div><div class="div-tag">COPIUM</div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="video-preview3">
+              <div class="thumbnail-row">
+                  <div class="div-live"> CANLI </div>
+                  <img class="thumbnail" src="thumbnails/thumbnail13.jpg">
+                  <div class="video-audience">730 izleyici</div>
+              </div>
+              <div class="video-info-flex">
+                  <div class="channel-picture">
+                  <img class="profile-picture" src="channels/channel13.png">
+                  </div>
+                  <div class="video-info">
+                      <p class="video-title">
+                          hi
+                      </p>
+                      <p class="video-author">
+                          SipOfCola_TV
+                      </p>
+                      <p class="video-content">
+                          League of Legends
+                      </p>
+                      <div class="div-tag-big">
+                          <div class="div-tag">English</div><div class="div-tag">speedrunning</div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="video-preview4">
+              <div class="thumbnail-row">
+                  <div class="div-live"> CANLI </div>
+                  <img class="thumbnail" src="thumbnails/thumbnail14.jpg">
+                  <div class="video-audience">59 izleyici</div>
+              </div>
+              <div class="video-info-flex">
+                  <div class="channel-picture">
+                  <img class="profile-picture" src="channels/channel14.png">
+                  </div>
+                  <div class="video-info">
+                      <p class="video-title">
+                          Fatalis speedrun
+                      </p>
+                      <p class="video-author">
+                          pemalaz
+                      </p>
+                      <p class="video-content">
+                          Monster Hunter: World
+                      </p>
+                      <div class="div-tag-big">
+                          <div class="div-tag">Malaysia</div><div class="div-tag">Speedrun</div><div class="div-tag">English</div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="div-show-more">
+        <div class="empty-div"></div>
+        <div class="for-hover"><div class="show-more">Daha fazla göster<img class="purple-arrow" src="dev/purple-arrow.png"> </div></div>
+        <div class="empty-div"></div>
+      </div>
+      
+      
+    <div class="div-seperater">
+      <span>Önerilen <a class="a-content">Bağış</a> yayınları</span>
+    </div>
+    <div class="video-flex">
+      <div class="video-preview">
+          <div class="thumbnail-row">
+              <div class="div-live"> CANLI </div>
+              <img class="thumbnail" src="thumbnails/thumbnail15.jpg">
+              <div class="video-audience">70 izleyici</div>
+          </div>
+          <div class="video-info-flex">
+              <div class="channel-picture">
+              <img class="profile-picture" src="channels/channel15.png">
+              </div>
+              <div class="video-info">
+                  <p class="video-title">
+                      World Magic Cup - Pro Tour Coverage 24/7 - !Ukraine !list
+                  </p>
+                  <p class="video-author">
+                      TheWillHallExp
+                  </p>
+                  <p class="video-content">
+                      Magic: The Gathering
+                  </p>
+                  <div class="div-tag-big">
+                      <div class="div-tag">ProTour</div><div class="div-tag">Charity</div><div class="div-tag">English</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="video-preview">
+          <div class="thumbnail-row">
+              <div class="div-live"> CANLI </div>
+              <img class="thumbnail" src="thumbnails/thumbnail16.jpg">
+              <div class="video-audience">15 izleyici</div>
+          </div>
+          <div class="video-info-flex">
+              <div class="channel-picture">
+              <img class="profile-picture" src="channels/channel16.png">
+              </div>
+              <div class="video-info">
+                  <p class="video-title">
+                      Best Rager on Twitch
+                  </p>
+                  <p class="video-author">
+                      MissyFromTwitch
+                  </p>
+                  <p class="video-content">
+                      KartRider: Drift
+                  </p>
+                  <div class="div-tag-big">
+                      <div class="div-tag">Charity</div><div class="div-tag">LLS</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview2">
+        <div class="thumbnail-row">
+            <div class="div-live"> CANLI </div>
+            <img class="thumbnail" src="thumbnails/thumbnail17.jpg">
+            <div class="video-audience">178 izleyici</div>
+        </div>
+        <div class="video-info-flex">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel17.png">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Good Game Zagreb 2023 Online Faza Day 3
+                </p>
+                <p class="video-author">
+                    GoodGameGlobal
+                </p>
+                <p class="video-content">
+                    Counter-Strike
+                </p>
+                <div class="div-tag-big">
+                    <div class="div-tag">Tournament</div><div class="div-tag">B2B</div><div class="div-tag">Charity</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview3">
+      <div class="thumbnail-row">
+          <div class="div-live"> CANLI </div>
+          <img class="thumbnail" src="thumbnails/thumbnail18.jpg">
+          <div class="video-audience">21 izleyici</div>
+      </div>
+      <div class="video-info-flex">
+          <div class="channel-picture">
+          <img class="profile-picture" src="channels/channel18.png">
+          </div>
+          <div class="video-info">
+              <p class="video-title">
+                  Resurgence Clappin
+              </p>
+              <p class="video-author">
+                  SammyCaps
+              </p>
+              <p class="video-content">
+                  Call of Duty
+              </p>
+              <div class="div-tag-big">
+                  <div class="div-tag">wZ2</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="video-preview4">
+    <div class="thumbnail-row">
+        <div class="div-live"> CANLI </div>
+        <img class="thumbnail" src="thumbnails/thumbnail19.jpg">
+        <div class="video-audience">118 izleyici</div>
+    </div>
+    <div class="video-info-flex">
+        <div class="channel-picture">
+        <img class="profile-picture" src="channels/channel19.png">
+        </div>
+        <div class="video-info">
+            <p class="video-title">
+                Can we finish lutycyr tower tonight? PS5
+            </p>
+            <p class="video-author">
+                xStreetLegalx
+            </p>
+            <p class="video-content">
+                Final Fantasy
+            </p>
+            <div class="div-tag-big">
+                <div class="div-tag">Australia</div><div class="div-tag">cozy</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="div-show-more">
+<div class="empty-div"></div>
+<div class="for-hover"><div class="show-more">Daha fazla göster<img class="purple-arrow" src="dev/purple-arrow.png"> </div></div>
+<div class="empty-div"></div>
+
+</div></div>
+<script type="text/javascript" src="scripts/slide.js"></script>  
+</body>
+</html>

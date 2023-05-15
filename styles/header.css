@@ -1,0 +1,334 @@
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 203;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    width: 100%;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  .three-dot-menu  {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .three-dot-menu:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  .div-logo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 19.5px;
+    font-size: 18px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .twitch-logo {
+    height: 30px;
+    padding: 5px;
+  }
+  .div-gozat{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 19.5px;
+    font-size: 18px;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+  .div-gozat:hover{
+    color: #9147ff;
+  }
+  .gozat{
+    font-weight: 600;
+  }
+  .div-dots{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 19.5px;
+    font-size: 18px;
+    justify-content: center;
+  }
+ 
+  .tooltip{
+    visibility: hidden;
+  }
+  .middle-section {
+    display: flex;
+    flex: 2;
+    flex-grow: 2;
+    flex-shrink: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    flex: 1;
+    height: 22px;
+    padding:5px 10px;
+    font-size: 16px;
+    border: 2px solid rgb(197, 183, 183);
+    color: rgb(14,14,16);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 6px;
+    border-color: rgba(243, 241, 241, 0.08);
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.08);
+    cursor: text;
+    line-height: 21px;
+  }
+  
+  .search-bar::placeholder {
+    font-size: 14px;
+    font-weight: 400px;
+  }
+  .search-bar:hover{
+    border: 2px solid rgb(187, 182, 182);
+  }
+  
+  .search-button {
+    
+    height: 36px;
+    width: 36px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-width: 7px;
+    border-style: solid;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 0;
+    border-color: rgba(243, 241, 241, 0.08);
+    margin-left: 1px;
+    margin-right: 10px;
+    
+  }
+  
+  .search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .search-button:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  .search-button .tooltip, .div-dots .tooltip, .notifications-icon-container .tooltip{
+    position: absolute;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+ 
+  
+  .search-button:hover .tooltip, .div-dots:hover .tooltip, .notifications-icon-container:hover .tooltip
+   {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .search-icon {
+    height: 40px;
+  }
+  
+  
+  .right-section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+    flex-shrink: 2;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .notifications-icon {
+    height: 24px;
+    background-color: hsla(240,7%,70%,.22);
+    cursor: pointer;
+  }
+  
+  .notifications-icon-container {
+    position: relative;
+  }
+  
+  .notifications-count {
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    background-color: rgb(235,4,0);
+    color: white;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+  }
+  .div-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0 10px 0 0;
+    padding: 10px 0px;
+    align-items: center;
+  }
+  .div-login, .div-signup{
+    padding: 0 5px;
+  }
+  .div-signup{
+    padding-right: 10px;
+  }
+  .div-isignup, .div-ilogin{
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 400;
+    line-height: 1.5em;
+    height: 3em;
+    white-space: nowrap;
+    width: 100%;
+  }
+  .div-dsignup{
+    padding: 0 10px;
+    
+  }
+  .button-login,.button-signup{
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    border-style: solid;
+    font-size: 13px;
+    font-weight: 500;
+    height: 30px;
+    cursor: pointer;
+  }
+  .button-login:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  .button-login{
+    background-color: hsla(240,7%,70%,.22);
+    color: #0e0e10;
+    border: none;
+  }
+  .button-signup{
+    background-color: #9147ff;
+    color: white;
+    border: none;
+  }
+  .button-signup:hover{
+    background-color: #7328e2;
+  }
+  .div-user-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 5px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: stretch;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .button-user-pic{
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-style:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    }
+  .div-doc{
+    display: none;
+    width: 25px;
+    height: auto
+  }
+  .current-user-picture {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 100%;
+    top:0px;
+    background-color: white;
+    
+  }
+  @media (max-width: 1440.98px) {
+    .gozat{
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 767px) {
+    .gozat {
+        display: none;
+    }
+    .div-doc{
+      display: block;
+    }
+    .search-bar{
+      display: none;
+    }
+    .search-button{
+      background-color: white;
+    }
+    .middle-section{
+      justify-content: flex-end;
+      margin-right: 0;
+    }
+  }
+  /*TOOLTIP VE HOVER EKLENECEK*/
+    
